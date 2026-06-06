@@ -23,6 +23,7 @@ bool init()
 {
     bool success=true;
     if(SDL_Init(SDL_INIT_VIDEO)<0)
+        
     {
         cout<<"Couldn't initialize SDL. SDL_Error: "<<SDL_GetError();
         success=false;
