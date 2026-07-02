@@ -28,6 +28,7 @@ bool init()
         cout<<"Couldn't initialize SDL. SDL_Error: "<<SDL_GetError();
         success=false;
     }
+        
     else
     {
         if(!(SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1")))
