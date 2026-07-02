@@ -6,7 +6,7 @@
 using namespace std;
 
 const int SCREEN_WIDTH=910;
-const int SCREEN_HEIGHT=750;
+const int SCREEN_HEIGHT=750 ;
 
 const int arrSize=130;
 const int rectSize=7;
