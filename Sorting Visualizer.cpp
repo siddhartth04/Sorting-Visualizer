@@ -131,7 +131,7 @@ void inplaceHeapSort(int* input, int n)
        }
     }
 
-    for(int heapLast=n-1; heapLast>=0 ; heapLast--)
+    for(int heapLast=n-1; heapLast>=0 ; heapLast-- )
     {
         int temp=input[0];
         input[0]=input[heapLast];
