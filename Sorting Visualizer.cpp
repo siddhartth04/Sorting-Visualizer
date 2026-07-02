@@ -12,7 +12,7 @@ const int arrSize=130;
 const int rectSize=7;
 
 int arr[arrSize] ;
-int Barr[arrSize];
+int Barr[arrSize] ; 
 
 SDL_Window* window=NULL;
 SDL_Renderer* renderer=NULL;
